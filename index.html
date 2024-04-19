@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Frontend Mentor | Random Advices</title>
+  </head>
+  <body
+    class="bg-darkBlue font-monrope flex items-center justify-center h-[100lvh]"
+  >
+    <main
+      class="bg-darkGrayishBlue p-5 rounded-lg w-[450px] mobile:w-11/12 mobile:mx-auto flex flex-col items-center justify-center text-center relative"
+    >
+      <h1
+        class="text-neonGreen uppercase my-5 mobile:my-3 text-sm"
+        id="advice-number"
+      ></h1>
+      <p
+        class="text-[28px] mobile:text-2xl text-lightCyan my-5 mobile:my-3"
+        id="advice-container"
+      >
+        Loading...
+      </p>
+      <img src="img/pattern-divider-desktop.svg" class="my-10 mobile:my-5" />
+      <button
+        class="bg-neonGreen rounded-full p-3 mobile:p-2 absolute -bottom-5"
+        id="btn"
+      >
+        <img src="img/icon-dice.svg" />
+      </button>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
